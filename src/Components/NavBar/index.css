@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar button{
+    width: 30vw;
+}
+
+@media (max-width:900px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar button{
+        margin: auto;
+    }
+    
+}
